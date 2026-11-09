@@ -36,17 +36,30 @@ A markdown report containing:
 
 ## Installation
 
-### Option 1: Clone to your skills directory
+### Option 1: Personal (CLI only)
+
+For local Claude Code usage in the terminal or desktop app:
 
 ```bash
-git clone https://github.com/<your-username>/interview-eval-skill.git ~/.claude/skills/interview-eval
+git clone https://github.com/mari-tza/interview-eval-skill.git ~/.claude/skills/interview-eval
 ```
 
-### Option 2: Copy the file manually
+Or just copy `skill.md` to `~/.claude/skills/interview-eval/skill.md`.
 
-Copy `skill.md` to `~/.claude/skills/interview-eval/skill.md`.
+### Option 2: Project-level (works with Codex)
 
-That's it. No dependencies, no config.
+For use in Codex (cloud) or to share the skill with your team via the repo:
+
+```bash
+# Inside your project repository
+mkdir -p .claude/skills/interview-eval
+curl -o .claude/skills/interview-eval/skill.md \
+  https://raw.githubusercontent.com/mari-tza/interview-eval-skill/main/skill.md
+```
+
+Then commit it to your repo. Anyone who clones the project gets the skill automatically — locally and in Codex.
+
+No dependencies, no config.
 
 ## Usage
 
