@@ -26,6 +26,7 @@ A transcript of a technical interview (mock or real). Can be raw text, timestamp
 | **Company/culture** | Company name or cultural context (US, EU, LatAm, etc.) | Generic tech |
 | **Mock vs real** | Whether this is practice or a real debrief | Assume mock |
 | **Role type** | backend, frontend, fullstack, data, infra, management, etc. | Infer from content |
+| **Preparation script** | A script, outline, or notes the candidate prepared before the interview. Used to compare planned vs actual answers. | None |
 
 ## Process
 
@@ -168,7 +169,39 @@ When the candidate is interviewing across cultural boundaries, note patterns tha
 
 ---
 
-### 3. Bias Self-Check
+### 3. Script Comparison (when preparation script is provided)
+
+If the candidate provided a preparation script, outline, or notes, compare what was planned vs what was actually said:
+
+| Aspect | What to analyze |
+|--------|----------------|
+| **Coverage** | Which planned points were actually delivered? Which were missed entirely? |
+| **Delivery vs plan** | Where the candidate deviated from the script, was the improvisation stronger or weaker than the planned version? |
+| **Adaptability** | Did the candidate adapt their script to the actual questions asked, or try to force scripted answers into unrelated questions? |
+| **Naturalness** | Did scripted answers sound rehearsed/robotic, or did the candidate make them conversational? |
+| **Gaps revealed** | What topics came up that the script didn't cover? These are areas to prepare for next time. |
+
+Add a **Script vs Reality** section to the report:
+
+```markdown
+## Script vs Reality
+
+### Delivered as planned
+- <point from script> — delivered effectively / could be stronger because...
+
+### Missed from script
+- <planned point not mentioned> — opportunity to bring this up when asked about <topic>
+
+### Improvised (not in script)
+- <unscripted answer> — this worked well / this could be prepared better
+
+### Adaptation notes
+- <where the candidate adjusted the script to fit the actual question, and how well it worked>
+```
+
+---
+
+### 4. Bias Self-Check
 
 Before finalizing scores, the evaluator must check for cognitive biases:
 
@@ -184,7 +217,7 @@ If any bias is detected, note it in the report as a **transparency flag**.
 
 ---
 
-### 4. Generate the Report
+### 5. Generate the Report
 
 **Filename format:** `YYYY-MM-DD - Interview Eval - <brief description>.md`
 
@@ -194,7 +227,7 @@ The description should capture the interview type and/or role (e.g., "System Des
 
 ---
 
-### 5. Report Structure
+### 6. Report Structure
 
 ```markdown
 # Interview Evaluation
@@ -285,6 +318,24 @@ Where the candidate's answers landed on the seniority spectrum:
 
 ---
 
+## Script vs Reality
+
+(Only include if a preparation script was provided.)
+
+### Delivered as planned
+- <point from script> — delivered effectively / could be stronger because...
+
+### Missed from script
+- <planned point not mentioned> — opportunity to bring this up when asked about <topic>
+
+### Improvised (not in script)
+- <unscripted answer> — this worked well / this could be prepared better
+
+### Adaptation notes
+- <where the candidate adjusted the script to fit the actual question, and how well it worked>
+
+---
+
 ## Cross-Cultural Notes
 
 (Only include if relevant — when the candidate is interviewing across cultural boundaries.)
@@ -321,7 +372,7 @@ Prioritized list of specific things to practice or change:
 
 ---
 
-### 6. Format-Specific Adjustments
+### 7. Format-Specific Adjustments
 
 Adjust the evaluation rubric based on the detected interview format:
 
@@ -336,7 +387,7 @@ Adjust the evaluation rubric based on the detected interview format:
 
 ---
 
-### 7. Deliver
+### 8. Deliver
 
 After writing the report:
 1. Print a brief summary (3-5 lines) of the overall assessment

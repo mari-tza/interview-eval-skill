@@ -15,6 +15,7 @@ Paste your interview transcript, get a detailed evaluation with scores, strength
 | Collaboration Signals | 10% | Response to hints/pushback, pair dynamics, curiosity |
 | Interview Mechanics | 10% | Time management, confidence calibration, energy, closing questions |
 | AI Assistance Detection | — | Fluency shifts, timing anomalies, copy-paste artifacts (live interviews only) |
+| Script vs Reality | — | Compares planned answers against what was actually said (when a prep script is provided) |
 | Cross-Cultural Notes | — | Coaching notes for candidates interviewing across cultural contexts (not scored) |
 
 Weights adjust automatically based on the interview format (pair programming, system design, behavioral, hiring manager, solo coding).
@@ -80,6 +81,7 @@ Then paste your transcript. Or just paste a transcript and ask Claude to evaluat
 | Company/culture | "this was for a US-based startup" |
 | Mock vs real | "this was a mock with a friend" |
 | Role type | "backend engineer position" |
+| Preparation script | "here are my prepared notes for this interview" |
 
 If you don't provide these, the skill infers them from the transcript.
 
