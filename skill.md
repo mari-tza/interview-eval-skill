@@ -1,6 +1,6 @@
 ---
 name: interview-eval
-description: Use when the user pastes a technical interview transcript and wants a detailed evaluation — assesses communication, technical depth, seniority signals, collaboration, cross-cultural factors, and generates an improvement report
+description: Use when the user pastes a technical interview transcript and wants a detailed evaluation — assesses communication, technical depth, level signals, collaboration, cross-cultural factors, and generates an improvement report
 ---
 
 # Interview Transcript Evaluator
@@ -73,7 +73,7 @@ Score each dimension **independently** to avoid halo/horn effect. Use evidence f
 
 ---
 
-#### C. Seniority Signals (Weight: 15%)
+#### C. Level Signals (Weight: 15%)
 
 | Signal | Junior | Mid | Senior | Staff+ |
 |--------|--------|-----|--------|--------|
@@ -216,7 +216,7 @@ The description should capture the interview type and/or role (e.g., "System Des
 |-----------|-------|--------|-------|
 | Communication & Structure | ⬛⬛⬛⬜⬜ | 20% | <one-line> |
 | Technical Depth | ⬛⬛⬛⬛⬜ | 25% | <one-line> |
-| Seniority Signals | ⬛⬛⬛⬜⬜ | 15% | <one-line> |
+| Level Signals | ⬛⬛⬛⬜⬜ | 15% | <one-line> |
 | Behavioral & Leadership | ⬛⬛⬜⬜⬜ | 15% | <one-line> |
 | Collaboration Signals | ⬛⬛⬛⬜⬜ | 10% | <one-line> |
 | Interview Mechanics | ⬛⬛⬛⬛⬜ | 10% | <one-line> |

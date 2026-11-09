@@ -10,7 +10,7 @@ Paste your interview transcript, get a detailed evaluation with scores, strength
 |-----------|--------|-----------------|
 | Communication & Structure | 20% | Structured thinking, STAR usage, conciseness, clarifying questions, thinking out loud |
 | Technical Depth | 25% | First principles reasoning, trade-off analysis, scope management, edge cases, system awareness |
-| Seniority Signals | 15% | Scope of impact, decision making, ambiguity handling, ownership, business awareness |
+| Level Signals | 15% | Scope of impact, decision making, ambiguity handling, ownership, business awareness |
 | Behavioral & Leadership | 15% | Ownership narrative, failure stories, collaboration evidence, impact framing |
 | Collaboration Signals | 10% | Response to hints/pushback, pair dynamics, curiosity |
 | Interview Mechanics | 10% | Time management, confidence calibration, energy, closing questions |
